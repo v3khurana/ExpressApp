@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  //h1= title
+  hr
+  form(method='POST')
+    .form-group
+      label Name
+        input.form-control(name='name', placeholder='Name')
+    .form-group
+      label Password
+        input.form-control(name='pwd', placeholder='Password')
+    br
+    button.btn.btn-primary Submit
+  hr

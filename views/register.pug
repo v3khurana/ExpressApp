@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  //h1= title
+  hr
+  form(method='POST',href='/login')
+    .form-group
+      label Name
+        input.form-control(name='name', placeholder='Name')
+    .form-group
+      label Password
+        input.form-control(name='pwd', placeholder='Password')
+    .form-group
+      label Email
+        input.form-control(name='email', placeholder='Email')
+    br
+    button.btn.btn-primary Sign Up
+  hr
